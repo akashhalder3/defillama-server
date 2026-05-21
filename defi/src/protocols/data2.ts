@@ -29212,5 +29212,23 @@ const data2: Protocol[] = [
     rugged: true,
     deadUrl: true,
   },
+  {
+    id: "2701",
+    name: "SCLiTE",
+    address: null,
+    symbol: "-",
+    url: "https://sclite.io",
+    description: "SCLiTE is the crypto exchange platform for crypto trading.",
+    chain: "BCHyper",
+    logo: `${baseIconsUrl}/sclite.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "CEX",
+    chains: ["Ethereum", "Bitcoin", "Avalanche", "Polygon", "Binance", "BCHyper"],
+    module: "sclite/index.js",
+    twitter: "sclite",
+    listedAt: 1779362033,
+  },
 ];
 export default data2;
